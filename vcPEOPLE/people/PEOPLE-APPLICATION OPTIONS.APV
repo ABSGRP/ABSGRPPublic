@@ -508,7 +508,7 @@ WHEN  ('people.clw') ('1')
 %LastApplicationDebug DEFAULT  ('')
 %LastApplicationLocalLibrary DEFAULT  ('')
 [PROJECT]
--- OUTPUTPATH D:\GitRepos\PeopleApp
+-- OUTPUTPATH D:\GitRepos\ABSGRPPublic
 #system win32 exe
 #model clarion dll
 #pragma define(_ABCDllMode_=>0) -- GENERATED
