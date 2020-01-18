@@ -3128,16 +3128,6 @@ WHEN  ('?TOOLBAR1') (0)
 
 %AIPressedImgIsVariable DEPEND %Control LONG TIMES 0
 
-[EMBED]
-EMBED %DataSection
-[DEFINITION]
-[SOURCE]
-PROPERTY:BEGIN
-PRIORITY 5001
-PROPERTY:END
-fffffff
-[END]
-[END]
 [ADDITION]
 NAME ABC FrameBrowseControl
 [INSTANCE]
@@ -3190,7 +3180,7 @@ AppFrame APPLICATION('Application'),AT(,,535,344),FONT('MS Sans Serif',8,COLOR:B
                 #ORDINAL(23)
             END
           END
-          TOOLBAR,AT(0,0,535,22),USE(?TOOLBAR1),COLOR(COLOR:Yellow),#ORDINAL(24)
+          TOOLBAR,AT(0,0,535,22),USE(?TOOLBAR1),COLOR(0000C000h),#ORDINAL(24)
             BUTTON,AT(4,2,16,14),USE(?Toolbar:Top, Toolbar:Top),ICON('VCRFIRST.ICO'),DISABLE, |
               FLAT,TIP('Go to the First Page'),#ORIG(?Toolbar:Top),#SEQ(1),#ORDINAL(25)
             BUTTON,AT(20,2,16,14),USE(?Toolbar:PageUp, Toolbar:PageUp),ICON('VCRPRIOR.ICO'), |
