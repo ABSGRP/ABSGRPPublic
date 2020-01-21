@@ -3180,7 +3180,7 @@ AppFrame APPLICATION('Application'),AT(,,535,344),FONT('MS Sans Serif',8,COLOR:B
                 #ORDINAL(23)
             END
           END
-          TOOLBAR,AT(0,0,535,22),USE(?TOOLBAR1),COLOR(00FF80FFh),#ORDINAL(24)
+          TOOLBAR,AT(0,0,535,22),USE(?TOOLBAR1),COLOR(0000C000h),#ORDINAL(24)
             BUTTON,AT(4,2,16,14),USE(?Toolbar:Top, Toolbar:Top),ICON('VCRFIRST.ICO'),DISABLE, |
               FLAT,TIP('Go to the First Page'),#ORIG(?Toolbar:Top),#SEQ(1),#ORDINAL(25)
             BUTTON,AT(20,2,16,14),USE(?Toolbar:PageUp, Toolbar:PageUp),ICON('VCRPRIOR.ICO'), |
